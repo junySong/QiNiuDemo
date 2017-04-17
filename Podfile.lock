@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HappyDNS (0.3.10)
+  - MJRefresh (3.1.12)
+  - pili-librtmp (1.0.4)
+  - PLMediaStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+    - PLMediaStreamingKit/Common (= 2.1.1)
+    - PLMediaStreamingKit/PLCameraStreamingKit (= 2.1.1)
+    - PLMediaStreamingKit/PLStreamingKit (= 2.1.1)
+  - PLMediaStreamingKit/Common (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLMediaStreamingKit/PLCameraStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLMediaStreamingKit/PLStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLPlayerKit (2.2.4):
+    - HappyDNS (~> 0.3.10)
+    - pili-librtmp (= 1.0.4)
+    - PLPlayerKit/precompiled (= 2.2.4)
+  - PLPlayerKit/precompiled (2.2.4):
+    - HappyDNS (~> 0.3.10)
+    - pili-librtmp (= 1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - MJRefresh (~> 3.1.12)
+  - PLMediaStreamingKit (~> 2.1.1)
+  - PLPlayerKit (~> 2.2.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pili-librtmp: bc768bc3971edad732fd5e66f0ee991fa1a0a257
+  PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
+  PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
+
+PODFILE CHECKSUM: 1335ddd792f1c50dbc3ab0114fe9284bbfc79435
+
+COCOAPODS: 1.1.0.beta.2
